@@ -1,0 +1,41 @@
+/* header{
+    background-color: aliceblue;
+} */
+.navbar{
+    background-color: teal;
+    padding: 1% 7%;
+    text-align: right;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown-items{
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    left: 0;
+    background-color: teal;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+}
+.dropdown-items a{
+    display: block;
+}
+.dropdown-items a:hover{
+    background-color: turquoise;
+}
+.dropdown-container:hover .dropdown-items{
+    display: block;
+    background-color: violet;
+}
